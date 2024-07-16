@@ -1,0 +1,93 @@
+.single{
+    display: flex;
+
+    .view{
+        flex: 1;
+        .info{
+            .topInfo{
+                display: flex;
+                align-items: center;
+                gap: 10px; 
+                img{
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 20px;
+                    object-fit: cover;
+                }
+            }
+            .details{
+                display: flex;
+                align-items: center;
+
+                h1{
+                    font-weight: 500;
+                }
+            }
+            hr{
+                width: 90%;
+                height: 0;
+                border: 1px solid gray;
+                margin: 20px 0px;
+            }
+            .details{
+                font-size: 18px;
+                flex-direction: column;
+                align-items: flex-start;
+                .item{
+                    margin: 30px 0px;
+
+                    .itemTitle{
+                        font-weight: 600;
+                        margin-right: 10px;
+                        text-transform: capitalize;
+                    }
+
+                }
+            }
+        }
+        .chart{
+            margin-top: 50px;
+            width: 80%;
+            height: 400px;
+        }
+    }
+    .activites{
+        flex: 1;
+        h2{
+            margin-bottom: 20px;
+        }
+        ul{
+            li{
+                list-style-type: none;
+                position: relative;
+                width: 1px;
+                padding-top: 50px;
+                background: #f45b69;
+
+                &::after{
+                    content: "";
+                    position: absolute;
+                    left: 50%;
+                    bottom: 0;
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    background-color: #f45b69;
+                    transform: translate(-50%);
+                }
+
+                div{
+                    min-width: 480px;
+                    padding: 15px;
+                    background: #f45b6810;
+                    p{
+                        margin-bottom: 5px;
+                    }
+                    time{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
