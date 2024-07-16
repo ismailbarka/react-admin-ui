@@ -22,7 +22,7 @@ To get started with this project, follow these steps:
     Install the dependencies:
     npm install
 
-Usage
+## Usage
 
 To run the project locally:
 
@@ -32,7 +32,7 @@ To run the project locally:
 
     This will start the React application and open it in your default browser. If it doesn't, navigate to http://localhost:3000 in your browser.
 
-Features
+ ## Features
 
     Responsive design
     User authentication
@@ -40,7 +40,7 @@ Features
     Manage users and products
     Interactive charts and graphs
 
-Contributing
+## Contributing
 
 Contributions are welcome! If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
@@ -59,11 +59,11 @@ git commit -m "Describe your feature here"
 
 Push to the branch:
 
-    git push origin feature-branch
+git push origin feature-branch
 
-    Open a pull request
+Open a pull request
 
-License
+## License
 
 no license.
 
